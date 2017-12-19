@@ -2,11 +2,17 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+
+  <remote  name="am"
+           fetch="https://github.com/aospmodrom"
+           revision="android-8.1" />
+
   <default revision="refs/tags/android-8.1.0_r2"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
