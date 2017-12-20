@@ -15,16 +15,7 @@
            sync-c="true" />
 
   <!-- projects changed by AOSPMod -->
-  <project path="bionic" name="android_bionic" remote="am" />
-  <project path="external/sqlite" name="android_external_sqlite" remote="am" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="am" />
-  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="am" />
-
-  <!-- AOSPMod vendor settings -->
-  <project path="vendor/aospmod" name="android_vendor_aospmod" remote="am" />
-
-  <!-- Unchanged AOSP projects -->
-  <project path="build/make" name="platform/build" groups="pdk" >
+  <project path="build/make" name="android_build_make" remote="am" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -33,6 +24,18 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="bionic" name="android_bionic" remote="am" />
+  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="am" />
+  <project path="external/sqlite" name="android_external_sqlite" remote="am" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="am" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="am" />
+  <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="am" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="am" />
+
+  <!-- AOSPMod vendor settings -->
+  <project path="vendor/aospmod" name="android_vendor_aospmod" remote="am" />
+
+  <!-- Unchanged AOSP projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
@@ -48,7 +51,6 @@
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
-  <project path="device/lge/bullhead" name="device/lge/bullhead" groups="device,bullhead,pdk" />
   <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead,pdk" clone-depth="1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -407,7 +409,6 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
-  <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" groups="pdk-fs" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" groups="pdk-fs" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" groups="pdk-fs" />
@@ -421,7 +422,6 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" groups="pdk-fs" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" groups="pdk-fs" />
-  <project path="packages/apps/Settings" name="platform/packages/apps/Settings" groups="pdk-fs" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" groups="pdk-fs" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" groups="pdk-fs" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" groups="apps_stk,pdk-fs" />
