@@ -33,7 +33,6 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="bionic" name="android_bionic" remote="am" />
-  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="am" />
   <project path="external/libpng" name="android_external_libpng" remote="am" />
   <project path="external/libxml2" name="android_external_libxml2" remote="am" />
   <project path="external/proguard" name="android_external_proguard" remote="am" />
@@ -43,6 +42,10 @@
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="am" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="am" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="am" />
+
+  <!-- bullhead -->
+  <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="am" />
+  <project path="kernel/bullhead" name="android_kernel_bullhead" remote="am" />
 
   <!-- projects from LineageOS -->
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" revision="staging/lineage-15.1" remote="github" />
@@ -61,7 +64,6 @@
   <project path="developers/demos" name="platform/developers/demos" groups="developers" />
   <project path="developers/samples/android" name="platform/developers/samples/android" groups="developers" />
   <project path="development" name="platform/development" groups="developers,pdk-cw-fs,pdk-fs" />
-  <project path="device/lge/bullhead-kernel" name="device/lge/bullhead-kernel" groups="device,bullhead,pdk" clone-depth="1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/abi-compliance-checker" name="platform/external/abi-compliance-checker" groups="pdk" />
