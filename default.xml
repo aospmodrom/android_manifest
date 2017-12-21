@@ -26,7 +26,10 @@
   </project>
   <project path="bionic" name="android_bionic" remote="am" />
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="am" />
+  <project path="external/libpng" name="android_external_libpng" remote="am" />
+  <project path="external/libxml2" name="android_external_libxml2" remote="am" />
   <project path="external/sqlite" name="android_external_sqlite" remote="am" />
+  <project path="external/zlib" name="android_external_zlib" remote="am" />
   <project path="frameworks/base" name="android_frameworks_base" remote="am" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="am" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="am" />
@@ -201,7 +204,6 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
   <project path="external/libunwind_llvm" name="platform/external/libunwind_llvm" groups="pdk" />
   <project path="external/libusb" name="platform/external/libusb" groups="pdk" />
@@ -210,7 +212,6 @@
   <project path="external/libvorbis" name="platform/external/libvorbis" groups="pdk" />
   <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libvterm" name="platform/external/libvterm" groups="pdk" />
-  <project path="external/libxml2" name="platform/external/libxml2" groups="pdk,libxml2" />
   <project path="external/libtextclassifier" name="platform/external/libtextclassifier" groups="pdk" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="pdk,libyuv" />
   <project path="external/linux-kselftest" name="platform/external/linux-kselftest" groups="vts,pdk" />
@@ -323,7 +324,6 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk" />
   <project path="external/xz-embedded" name="platform/external/xz-embedded" groups="pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk" />
   <project path="frameworks/av" name="platform/frameworks/av" groups="pdk" />
