@@ -9,6 +9,9 @@
            fetch="https://github.com/aospmodrom"
            revision="android-8.1" />
 
+  <remote  name="linaro"
+           fetch="git://android.git.linaro.org" />
+
   <remote  name="github"
            fetch="https://github.com/" />
 
@@ -53,6 +56,10 @@
 
   <!-- AOSPMod vendor settings -->
   <project path="vendor/aospmod" name="android_vendor_aospmod" remote="am" />
+
+  <!-- Linaro GCC -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.2" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.2" revision="master" remote="linaro" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.2" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.2" revision="master" remote="linaro" />
 
   <!-- Unchanged AOSP projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -483,9 +490,6 @@
   <project path="prebuilts/clang/host/linux-x86" name="platform/prebuilts/clang/host/linux-x86" groups="pdk" clone-depth="1" />
   <project path="prebuilts/devtools" name="platform/prebuilts/devtools" groups="pdk-fs" clone-depth="1" />
   <project path="prebuilts/deqp" name="platform/prebuilts/deqp" groups="pdk-fs" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" groups="pdk,linux" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" groups="pdk-fs" clone-depth="1" />
