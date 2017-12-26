@@ -43,6 +43,7 @@
   <project path="external/sqlite" name="android_external_sqlite" remote="am" />
   <project path="external/zlib" name="android_external_zlib" remote="am" />
   <project path="frameworks/base" name="android_frameworks_base" remote="am" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="am" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="am" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" remote="am" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="am" />
@@ -388,7 +389,6 @@
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
-  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="pdk,qcom,qcom_display" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps,pdk" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom,qcom_keymaster,pdk" />
   <project path="hardware/qcom/media" name="platform/hardware/qcom/media" groups="qcom,pdk" />
