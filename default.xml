@@ -52,6 +52,7 @@
   <!-- bullhead -->
   <project path="device/lge/bullhead" name="android_device_lge_bullhead" remote="am" />
   <project path="kernel/bullhead" name="android_kernel_bullhead" remote="am" />
+  <project path="vendor/lge/bullhead" name="android_vendor_lge_bullhead" remote="am" />
 
   <!-- projects from LineageOS -->
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" revision="staging/lineage-15.1" remote="github" />
