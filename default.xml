@@ -60,6 +60,9 @@
   <!-- AOSPMod vendor settings -->
   <project path="vendor/aospmod" name="android_vendor_aospmod" remote="am" />
 
+  <!-- Open GApps -->
+  <project path="vendor/google/gapps" name="android_vendor_google_gapps" remote="am" />
+
   <!-- Linaro GCC -->
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.2" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-7.2" revision="master" remote="linaro" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.2" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-7.2" revision="master" remote="linaro" />
