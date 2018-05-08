@@ -59,11 +59,6 @@
   <project path="kernel/bullhead" name="android_kernel_bullhead" remote="am" />
   <project path="vendor/lge/bullhead" name="android_vendor_lge_bullhead" remote="am" />
 
-  <!-- hikey -->
-  <project path="device/linaro/hikey" name="android_device_linaro_hikey" remote="am" />
-  <project path="kernel/hikey" name="android_kernel_hikey" remote="am" />
-  <project path="vendor/linaro/hikey" name="android_vendor_linaro_hikey" remote="am" />
-
   <!-- AOSPMod vendor settings -->
   <project path="vendor/aospmod" name="android_vendor_aospmod" remote="am" />
 
